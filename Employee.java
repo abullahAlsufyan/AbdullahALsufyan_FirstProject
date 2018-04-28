@@ -22,7 +22,7 @@ public int getYearsOfExperince(){
 public void display(){
 	System.out.println("Name: "+name+" rank: "+rank+" Years of experince :"+yearsOfExperince);
 }
-public double calcuateSalary(){
+public double sumOfSalary(){
 	double salary= yearsOfExperince*500+rank*1000;
 	return salary;
 }
